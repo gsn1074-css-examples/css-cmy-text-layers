@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+h1 {
+    display: block;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+	font-size: 5em;
+}
+
+#top {
+	z-index: 200;
+	color: rgba(0, 255, 255, .33);
+}
+
+#middle {
+    z-index: 100;
+    color: rgba(255, 0, 255, .66);
+}
+
+#bottom {
+    z-index: 0;
+    color: rgba(255, 255, 0, .99);
+}
+
+span {
+    display: inline-block;
+    opacity: 0;
+}
